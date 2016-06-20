@@ -18,11 +18,11 @@ outputFolder - The output folder for images and JSON. (OPTIONAL)
 
 # PSD Structure #
 
-A folder layer with the prefix 'skin:' will set the current skin to the specified name.
+A folder with the prefix 'skin:' will set the current skin to the specified name.
 
-A folder layer with the prefix 'slot:' will set the current slot to the specified name.
+A folder with the prefix 'slot:' will set the current slot to the specified name.
 
-A folder layer with the suffix '.png:' will be exported to a PNG file with the specified name. During export, any layers within a PNG folder layer will be merged into one output image.
+A folder or layer with the suffix '.png:' will be exported to a PNG file with the specified name. During export, any layers within a PNG folder layer will be merged into one output image.
 
 e.g. the following PSD file:
 
